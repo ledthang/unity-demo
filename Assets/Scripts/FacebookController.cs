@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-//using Facebook.Unity;
+using Facebook.Unity;
 
 public class FacebookController : MonoBehaviour
 {
-/*    [SerializeField] Button fbLogin;
+    [SerializeField] Button fbLogin;
     [SerializeField] Button fbLogout;
 
     private void Awake()
@@ -81,5 +81,5 @@ public class FacebookController : MonoBehaviour
     {
         fbLogin.onClick.RemoveListener(FacebookLogin);
         fbLogout.onClick.RemoveListener(FacebookLogout);
-    }*/
+    }
 }

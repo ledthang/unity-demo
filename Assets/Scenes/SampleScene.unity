@@ -404,7 +404,7 @@ GameObject:
   - component: {fileID: 62354806}
   - component: {fileID: 62354805}
   m_Layer: 5
-  m_Name: Password
+  m_Name: Password Field
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -579,7 +579,7 @@ GameObject:
   - component: {fileID: 80074273}
   - component: {fileID: 80074272}
   m_Layer: 5
-  m_Name: Email
+  m_Name: Email Field
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1536,6 +1536,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62e7bc83e953f654ba65d4a9ef5386ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fbLogin: {fileID: 345654281}
+  fbLogout: {fileID: 1367177695}
 --- !u!1 &432991837
 GameObject:
   m_ObjectHideFlags: 0
@@ -4054,6 +4056,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1367177693}
   m_CullTransparentMesh: 1
+--- !u!1 &1565810073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1565810074}
+  - component: {fileID: 1565810075}
+  m_Layer: 0
+  m_Name: EmailAuth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1565810074
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565810073}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2064808678}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1565810075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565810073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56aaf0d35ac941a408d97e848c2934a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emailLogin: {fileID: 432991839}
+  emailLoginField: {fileID: 80074272}
+  passwordLoginField: {fileID: 62354805}
+  warningLoginText: {fileID: 681650410}
+  confirmLoginText: {fileID: 681650410}
 --- !u!1 &1572272706
 GameObject:
   m_ObjectHideFlags: 0
@@ -4837,6 +4887,7 @@ Transform:
   m_Children:
   - {fileID: 428095979}
   - {fileID: 1210814208}
+  - {fileID: 1565810074}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
