@@ -1,22 +1,22 @@
-### Unity Services Demo
+## Unity Services Demo
 
-#### Google Signin
+### Google Signin
 FirebaseAuth SDK
 
 [Google Signin Unity Plugin](https://github.com/googlesamples/google-signin-unity)
 
-#### Facebook Signin
+### Facebook Signin
 FirebaseAuth SDK
 
 Facebook Unity SDK
 
-#### Email Signin
+### Email Signin
 FirebaseAuth SDK
 
-#### Admob
+### Admob
 Admob SDK
 
-#### Share for Android & iOS
+### Share for Android & iOS
 [Unity Native Share Plugin](https://github.com/yasirkula/UnityNativeShare)
 
-#### Unity IAP
+### Unity IAP
