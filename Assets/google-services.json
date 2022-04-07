@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "438237195974",
+    "project_id": "unity-demo-4e84f",
+    "storage_bucket": "unity-demo-4e84f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438237195974:android:870e64ba51c174664fb1c7",
+        "android_client_info": {
+          "package_name": "com.kkingStudio.UnityDemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438237195974-uvgn3dbvntedb6o0v50arcod9bo9q92k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kkingStudio.UnityDemo",
+            "certificate_hash": "419ca71bbee2d3385cc39b87fec80ccfcf664bd0"
+          }
+        },
+        {
+          "client_id": "438237195974-jtruiqqcick3ekpimaidmqoaglnli9e3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUsa1tPvIb8axpPzonhAHlCL8Tg2rWqT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438237195974-jtruiqqcick3ekpimaidmqoaglnli9e3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
